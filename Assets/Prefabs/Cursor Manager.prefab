@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6011706670839168312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6011706670839168314}
+  - component: {fileID: 6011706670839168315}
+  m_Layer: 0
+  m_Name: Cursor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6011706670839168314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011706670839168312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -70, y: 343, z: 3.4105883}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6011706670839168315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6011706670839168312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36efc6d8ba5fa084fb9eac1b4c878b27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorDefaultTexture: {fileID: 2800000, guid: 04b819c9b170b474c88b06df66e45642, type: 3}
+  cursorOnDialogueTexture: {fileID: 2800000, guid: 14d3f9b196fc9044798902a046df629c, type: 3}
+  cursorIsDialogueTextured: 0
+  cursorMeleeTexture: {fileID: 2800000, guid: c0e7794532a1ebd40a237e896a5dd320, type: 3}
+  cursorIsMeleeTextured: 0
+  player: {fileID: 0}
+  playerPosition: {x: 0, y: 0, z: 0}
+  screenPosition: {x: 0, y: 0, z: 0}
+  worldPosition: {x: 0, y: 0, z: 0}
