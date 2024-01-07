@@ -4,5 +4,11 @@ using UnityEngine;
 
 public class InventoryScript
 {
-    private
+    private List<InventoryItem> itemList;
+
+    //initializing list
+    public InventoryScript()
+    {
+        itemList = new List<InventoryItem>();
+    }
 }
