@@ -11,4 +11,9 @@ public class InventoryScript
     {
         itemList = new List<InventoryItem>();
     }
+
+    public void AddItem(InventoryItem item)
+    {
+
+    }
 }
