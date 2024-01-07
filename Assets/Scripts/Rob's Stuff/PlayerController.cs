@@ -26,6 +26,13 @@ public class PlayerController : MonoBehaviour
 
     private SpriteRenderer playerSprite;
 
+    private InventoryScript inventory;
+
+    private void Awake()
+    {
+        inventory = new InventoryScript();
+    }
+
     private void Start()
     {
         anim = GetComponent<Animator>();
