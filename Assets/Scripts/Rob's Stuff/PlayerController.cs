@@ -37,6 +37,12 @@ public class PlayerController : MonoBehaviour
 
         anim = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
+
+
+        // Just testing the item spawning
+        ItemWorld.SpawnItemWorld(new Vector3(-210, -104), new InventoryItem { itemType = InventoryItem.ItemType.Skull, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(-210, -92), new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(-210, -100), new InventoryItem { itemType = InventoryItem.ItemType.Undead_Wisp, amount = 1 });
     }
 
     private void Update()

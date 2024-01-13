@@ -511,6 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917b29beefbf51245b8f5a4285cf7c04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pfWorldItem: {fileID: 1026766934732822753, guid: 3c2307934fdb0ab4e9cc3a44ba1c3e38, type: 3}
   BoneSprite: {fileID: 21300000, guid: c3902053d961da74db4f9893d9803551, type: 3}
   SkullSprite: {fileID: 21300000, guid: bbb396088f98dfe4296ca0aa661ef0a0, type: 3}
   Undead_WispSprite: {fileID: 21300000, guid: 37d5375017f0dfc4195321ea8b8a95af, type: 3}
@@ -598,11 +599,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3780130210667118887, guid: f77cf0b83a47d594b892866965f9bd3f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -218.25
+      value: -218.369
       objectReference: {fileID: 0}
     - target: {fileID: 3780130210667118887, guid: f77cf0b83a47d594b892866965f9bd3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -99.49
+      value: -99.783
       objectReference: {fileID: 0}
     - target: {fileID: 3780130210667118887, guid: f77cf0b83a47d594b892866965f9bd3f, type: 3}
       propertyPath: m_LocalPosition.z

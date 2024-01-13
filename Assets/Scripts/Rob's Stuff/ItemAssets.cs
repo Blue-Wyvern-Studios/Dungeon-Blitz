@@ -10,6 +10,9 @@ public class ItemAssets : MonoBehaviour
     {
         Instance = this;
     }
+
+    public Transform pfWorldItem;
+
     public Sprite BoneSprite;
     public Sprite SkullSprite;
     public Sprite Undead_WispSprite;
