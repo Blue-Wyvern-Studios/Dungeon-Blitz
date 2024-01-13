@@ -30,14 +30,11 @@ public class PlayerController : MonoBehaviour
 
     private InventoryScript inventory;
 
-    private void Awake()
+    private void Start()
     {
         inventory = new InventoryScript();
         uiInventory.SetInventory(inventory);
-    }
 
-    private void Start()
-    {
         anim = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
     }
