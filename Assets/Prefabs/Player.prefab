@@ -243,6 +243,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   playerOneWayPlatform: {fileID: 3780130210667118891}
+  uiInventory: {fileID: 0}
 --- !u!114 &3780130210667118891
 MonoBehaviour:
   m_ObjectHideFlags: 0
