@@ -21,24 +21,6 @@ public class InventoryScript
         AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
         AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
         AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
 
         Debug.Log(itemList.Count);
     }

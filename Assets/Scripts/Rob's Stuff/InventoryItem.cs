@@ -13,4 +13,16 @@ public class InventoryItem
 
     public ItemType itemType;
     public int amount;
+
+    public Sprite GetSprite()
+    {
+        switch (itemType)
+        {
+            default:
+            case ItemType.Bone:         return ItemAssets.Instance.BoneSprite;
+            case ItemType.Skull:        return ItemAssets.Instance.SkullSprite;
+            case ItemType.Undead_Wisp:  return ItemAssets.Instance.Undead_WispSprite;
+
+        }
+    }
 }
