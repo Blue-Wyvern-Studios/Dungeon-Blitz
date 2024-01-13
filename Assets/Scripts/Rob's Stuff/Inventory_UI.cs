@@ -24,17 +24,17 @@ public class Inventory_UI : MonoBehaviour
     {
         int x = 0;
         int y = 0;
-        float itemSlotCellSize = 52f;
+        float itemSlotCellSize = 70f;
         foreach (InventoryItem item in inventory.GetItemList())
         {
             RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
             itemSlotRectTransform.gameObject.SetActive(true);
             itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
             x++;
-            if(x > 7)
+            if(x >= 7)
             {
                 x = 0;
-                y++;
+                y--;
             }
         }
     }
