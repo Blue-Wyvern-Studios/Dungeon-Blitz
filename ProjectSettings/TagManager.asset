@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Projectile
   - Enemy
+  - ItemSlotContainer
+  - ItemSlot
   layers:
   - Default
   - TransparentFX

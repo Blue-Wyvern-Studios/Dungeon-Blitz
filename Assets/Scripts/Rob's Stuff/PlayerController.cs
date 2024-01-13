@@ -26,11 +26,14 @@ public class PlayerController : MonoBehaviour
 
     private SpriteRenderer playerSprite;
 
+    [SerializeField] private Inventory_UI uiInventory;
+
     private InventoryScript inventory;
 
     private void Awake()
     {
         inventory = new InventoryScript();
+        uiInventory.SetInventory(inventory);
     }
 
     private void Start()
