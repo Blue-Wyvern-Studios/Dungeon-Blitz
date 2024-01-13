@@ -10,10 +10,13 @@ public class InventoryScript
     public InventoryScript()
     {
         itemList = new List<InventoryItem>();
+
+        AddItem(new InventoryItem { itemType = InventoryItem.ItemType.Skull, amount = 1 });
+        Debug.Log(itemList.Count);
     }
 
     public void AddItem(InventoryItem item)
     {
-
+        itemList.Add(item);
     }
 }
