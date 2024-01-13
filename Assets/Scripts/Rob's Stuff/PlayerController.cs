@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     public PlayerOneWayPlatform playerOneWayPlatform;
 
-    private Animator anim;
+    public Animator anim;
 
     private SpriteRenderer playerSprite;
 

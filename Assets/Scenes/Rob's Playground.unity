@@ -216,7 +216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &91549796
 RectTransform:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91549795}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -292,7 +292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8971645393177264992, guid: f62cd90c101948f478d8c138b1bde8ac, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8971645393177264992, guid: f62cd90c101948f478d8c138b1bde8ac, type: 3}
       propertyPath: m_AnchorMax.x
@@ -430,7 +430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1982900371854828868, guid: fcfe7dd57cf68d2429644f93d0674c07, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1982900371854828868, guid: fcfe7dd57cf68d2429644f93d0674c07, type: 3}
       propertyPath: m_LocalPosition.x
@@ -550,11 +550,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3780130210667118887, guid: f77cf0b83a47d594b892866965f9bd3f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -216.62
+      value: -218.25
       objectReference: {fileID: 0}
     - target: {fileID: 3780130210667118887, guid: f77cf0b83a47d594b892866965f9bd3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -97.25
+      value: -99.49
       objectReference: {fileID: 0}
     - target: {fileID: 3780130210667118887, guid: f77cf0b83a47d594b892866965f9bd3f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -691,7 +691,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1437425941 stripped
 MonoBehaviour:
@@ -787,7 +787,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1631636506
 BoxCollider2D:
