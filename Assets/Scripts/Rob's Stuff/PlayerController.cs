@@ -38,11 +38,21 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
 
-
         // Just testing the item spawning
-        ItemWorld.SpawnItemWorld(new Vector3(-210, -104), new InventoryItem { itemType = InventoryItem.ItemType.Skull, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(-209, -96), new InventoryItem { itemType = InventoryItem.ItemType.Skull, amount = 1 });
         ItemWorld.SpawnItemWorld(new Vector3(-210, -92), new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        ItemWorld.SpawnItemWorld(new Vector3(-210, -100), new InventoryItem { itemType = InventoryItem.ItemType.Undead_Wisp, amount = 1 });
+        ItemWorld.SpawnItemWorld(new Vector3(-211, -100), new InventoryItem { itemType = InventoryItem.ItemType.Undead_Wisp, amount = 1 });
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        ItemWorld itemWorld = collider.GetComponent<ItemWorld>();
+        if (itemWorld != null)
+        {
+            //Touching item
+            inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
+        }
     }
 
     private void Update()

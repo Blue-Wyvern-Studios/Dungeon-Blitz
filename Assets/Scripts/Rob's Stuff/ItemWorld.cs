@@ -15,8 +15,8 @@ public class ItemWorld : MonoBehaviour
     }
 
     private InventoryItem item;
-
     private SpriteRenderer spriteRenderer;
+
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -26,5 +26,15 @@ public class ItemWorld : MonoBehaviour
     {
         this.item = item;
         spriteRenderer.sprite = item.GetSprite();
+    }
+
+    public InventoryItem GetItem()
+    {
+        return item;
+    }
+
+    public void DestroySelf()
+    {
+        Destroy(gameObject);
     }
 }
