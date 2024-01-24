@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
+    private float speed = 6f;
     private float jumpingPower = 12f;
 
     private bool isJumping;
