@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerOneWayPlatform : MonoBehaviour
 {
     public GameObject currentOneWayPlatform;
-
+  //how to use: add script to platform object (if want to be two way platform add another collider with trigger enabled)
     [SerializeField] private BoxCollider2D playerCollider;
 
     private void Update()
@@ -27,8 +27,14 @@ public class PlayerOneWayPlatform : MonoBehaviour
             currentOneWayPlatform = collision.gameObject;
         }
     }
-
-    private void OnCollisionExit2D(Collision2D collision)
+  private void OnTriggerStay2D(Collider2D collision)
+  {
+    if (collision.gameObject.CompareTag("OneWayPlatform"))
+    {
+      StartCoroutine(DisableCollision());
+    }
+  }
+  private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("OneWayPlatform"))
         {
@@ -39,7 +45,7 @@ public class PlayerOneWayPlatform : MonoBehaviour
     //disabling collision between player and platform
     private IEnumerator DisableCollision()
     {
-        BoxCollider2D platformCollider = currentOneWayPlatform.GetComponent<BoxCollider2D>();
+        Collider2D platformCollider = currentOneWayPlatform.GetComponent<Collider2D>();
 
         Physics2D.IgnoreCollision(playerCollider, platformCollider);
         yield return new WaitForSeconds(0.25f);
