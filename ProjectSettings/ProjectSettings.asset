@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Dungeon Blitz Remakers
   productName: Dungeon Blitz
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 15, y: 15}
