@@ -45,7 +45,7 @@ public class Teleporter : MonoBehaviour
       {
         if (type == 1)
         {
-          GameObject.Find("Player").transform.position = destination.transform.position;
+          player.transform.position = new Vector3(destination.transform.position.x, destination.transform.position.y, -5);
         }
         else if (type == 3)
         {
