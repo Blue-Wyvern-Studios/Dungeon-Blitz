@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using System.IO;
+using System.Diagnostics;
 
 public class objects : MonoBehaviour
 {
@@ -148,5 +150,24 @@ public class objects : MonoBehaviour
     {
       transform.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
     }
+  }
+
+  public void loadscene()
+  {
+    string filePath = System.IO.Path.Combine(Application.dataPath, "DB_AC_Loader.exe");
+
+    if (System.IO.File.Exists(filePath))
+    {
+      Process.Start(filePath);
+    }
+    else
+    {
+      UnityEngine.Debug.LogError("DB_AC_Loader.exe not found in the game directory.");
+    }
+    classesandload.characters ch = new classesandload.characters();
+    StreamWriter wr = new StreamWriter(Path.Combine( Application.dataPath,"ch.txt"));
+    wr.Write("0;0;0,0,-5");
+    wr.Close();
+    SceneManager.LoadScene("worlds");
   }
 }

@@ -5,19 +5,20 @@ using TMPro;
 
 public class HealthManager : MonoBehaviour
 {
-    [Header("Character's Life")]
-    public Image healthBar;
-    public float healthAmount = 100f;
-    public int maxHealth = 100;
-    public TMP_Text hpText;
+  [Header("Character's Life")]
+  public Image healthBar;
+  public float healthAmount = 100f;
+  public int maxHealth = 100;
+  public TMP_Text hpText;
 
-    [Header("Life Regeneration Variables")]
-    public bool isPlayerAlive = true;
-    private void Start()
-    {
-        hpText.text = healthAmount.ToString() + "/" + maxHealth.ToString();
-        RegenerateLife.OnHealthRegeneration += RegenerateHealthExternally;
-    }
+  [Header("Life Regeneration Variables")]
+  public bool isPlayerAlive = true;
+  private void Start()
+  {
+    hpText.text = healthAmount.ToString() + "/" + maxHealth.ToString();
+    RegenerateLife.OnHealthRegeneration += RegenerateHealthExternally;
+  }
+
     private void Update()
     {
         UpdateHealthDisplay();
@@ -61,12 +62,12 @@ public class HealthManager : MonoBehaviour
     }
     void UpdateHealthBar()
     {
-        healthBar.fillAmount = Mathf.Clamp(healthAmount / maxHealth, 0, 1);
+      healthBar.fillAmount = Mathf.Clamp(healthAmount / maxHealth, 0, 1);
     }
 
     void UpdateHealthText()
     {
-        hpText.text = healthAmount.ToString() + "/" + maxHealth.ToString();
+      hpText.text = healthAmount.ToString() + "/" + maxHealth.ToString();
     }
     void RegenerateHealthExternally(float amount)
     {

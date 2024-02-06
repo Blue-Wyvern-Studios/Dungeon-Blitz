@@ -8,7 +8,9 @@ public class Teleporter : MonoBehaviour
   bool init = false;
   bool overit = false;
   public int type; //type of teleport (0:non-clicable, 1:clicable inside dungeon, 2: clicable scene loader)
-  public int scenes;//locally save dungon id and during loading it'll read out from local and place the gameobject(not yet possible)
+  public int worldid;//store the id of the dungeons
+  public int dungonid;//store th id of th wotld
+  public string scene;//witch scene to load
   //how to use: if you wanna place a teleporter attach the component and give it the informations (type, destination(other tleporter) and scen if needed thn enjoy)
     void Start()
     {
@@ -46,7 +48,11 @@ public class Teleporter : MonoBehaviour
         }
         else if (type == 3)
         {
-          SceneManager.LoadScene("...");
+          GameObject.Find("dungeonsetter").GetComponent<classesandload>().ch.dungeonid = dungonid;
+          GameObject.Find("dungeonsetter").GetComponent<classesandload>().ch.worldid = worldid;
+          GameObject.Find("dungeonsetter").GetComponent<classesandload>().ch.position = GameObject.Find("Player").transform.position;
+          GameObject.Find("dungeonsetter").GetComponent<classesandload>().localsave();
+          SceneManager.LoadScene(scene);
         }
       }
     }

@@ -30,20 +30,18 @@ public class PlayerController : MonoBehaviour
 
     private InventoryScript inventory;
 
-    private void Start()
-    {
-        inventory = new InventoryScript();
-        uiInventory.SetInventory(inventory);
+  private void Start()
+  {
+    inventory = new InventoryScript();
+    uiInventory.SetInventory(inventory);
 
-        anim = GetComponent<Animator>();
-        playerSprite = GetComponent<SpriteRenderer>();
-
-        // Just testing the item spawning
-        ItemWorld.SpawnItemWorld(new Vector3(-209, -96), new InventoryItem { itemType = InventoryItem.ItemType.Skull, amount = 1 });
-        ItemWorld.SpawnItemWorld(new Vector3(-210, -92), new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
-        ItemWorld.SpawnItemWorld(new Vector3(-211, -100), new InventoryItem { itemType = InventoryItem.ItemType.Undead_Wisp, amount = 1 });
-    }
-
+    anim = GetComponent<Animator>();
+    playerSprite = GetComponent<SpriteRenderer>();
+    // Just testing the item spawning
+    ItemWorld.SpawnItemWorld(new Vector3(-209, -96), new InventoryItem { itemType = InventoryItem.ItemType.Skull, amount = 1 });
+    ItemWorld.SpawnItemWorld(new Vector3(-210, -92), new InventoryItem { itemType = InventoryItem.ItemType.Bone, amount = 1 });
+    ItemWorld.SpawnItemWorld(new Vector3(-211, -100), new InventoryItem { itemType = InventoryItem.ItemType.Undead_Wisp, amount = 1 });
+  }
     private void OnTriggerEnter2D(Collider2D collider)
     {
         ItemWorld itemWorld = collider.GetComponent<ItemWorld>();
@@ -130,4 +128,8 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         isJumping = false;
     }
+  private void OnCollisionEnter2D(Collision2D collision)
+  {
+    
+  }
 }

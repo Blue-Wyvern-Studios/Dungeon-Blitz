@@ -8,8 +8,7 @@ public class ScriptEnergyBar : MonoBehaviour
     public void ActualizarEnergia(float nuevoNivel)
     {
         nuevoNivel = Mathf.Clamp01(nuevoNivel);
-
-        imagenBarraEnergia.fillAmount = nuevoNivel;
+      imagenBarraEnergia.fillAmount = nuevoNivel;
     }
     void Start()
     {

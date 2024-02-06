@@ -277,7 +277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214855788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -64.99, y: -5.45, z: 8.25}
+  m_LocalPosition: {x: -64.99, y: -5.45, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1064,7 +1064,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentOneWayPlatform: {fileID: 0}
-  playerCollider: {fileID: 0}
 --- !u!68 &356895979
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1226,7 +1225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentOneWayPlatform: {fileID: 0}
-  playerCollider: {fileID: 0}
 --- !u!68 &362898786
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -1504,12 +1502,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d40a4e6085bbc364aa39405a2e862133, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0e560d1ee234934ea10840c1ef969e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 41.3127, y: 17.57}
+  m_Size: {x: 41.3, y: 17.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3543,7 +3541,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516026076396903818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -112.86128, y: 6.928558, z: -9.657587}
+  m_LocalPosition: {x: -112.86128, y: 6.928558, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3583,7 +3581,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516026076467410412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 130.94931, y: -11.705095, z: 9.657587}
+  m_LocalPosition: {x: 130.94931, y: -11.705095, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3894,7 +3892,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026078396485190}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026076807508391
 GameObject:
   m_ObjectHideFlags: 0
@@ -3922,7 +3922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516026076807508391}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.26926422, y: -11.302629, z: 9.657587}
+  m_LocalPosition: {x: -0.26926422, y: -11.302629, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4082,7 +4082,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516026077195699560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -46.960663, y: -10.900118, z: 9.657587}
+  m_LocalPosition: {x: -46.960663, y: -10.900118, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4314,7 +4314,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026078223166988}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026077599863825
 GameObject:
   m_ObjectHideFlags: 0
@@ -4441,7 +4443,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026077627610453}
   type: 1
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026077627610453
 GameObject:
   m_ObjectHideFlags: 0
@@ -4568,7 +4572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026077599863825}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026077853862328
 GameObject:
   m_ObjectHideFlags: 0
@@ -4596,7 +4602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516026077853862328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.84, y: -11.63, z: 9.657587}
+  m_LocalPosition: {x: 63.84, y: -11.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4902,7 +4908,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026078416555384}
   type: 1
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!114 &304167015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4917,7 +4925,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 0}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026077908374191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,7 +5054,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026078223541508}
   type: 1
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026078223166988
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,7 +5183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026077429497886}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026078223541508
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,7 +5312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026077908374191}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026078396485190
 GameObject:
   m_ObjectHideFlags: 0
@@ -5425,7 +5441,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026076629856850}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &516026078416555384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,7 +5570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 516026077893002592}
   type: 1
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &5091751432698594043
 GameObject:
   m_ObjectHideFlags: 0

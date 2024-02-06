@@ -1438,7 +1438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5863667147217557519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -202.97, y: 15.57, z: 3.0877872}
+  m_LocalPosition: {x: -202.97, y: 15.57, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2007,7 +2007,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 5863667147742136057}
   type: 1
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &5863667147344746645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,7 +2420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5863667147482171153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 507.53537, y: -49.298664, z: -3.177787}
+  m_LocalPosition: {x: 507.53537, y: -49.298664, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3422,7 +3424,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 5863667147336974355}
   type: 1
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &5863667147754084902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5037,7 +5041,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentOneWayPlatform: {fileID: 0}
-  playerCollider: {fileID: 0}
 --- !u!1 &5863667148194124486
 GameObject:
   m_ObjectHideFlags: 0
@@ -6180,7 +6183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 5863667148806538299}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &5863667148428618872
 GameObject:
   m_ObjectHideFlags: 0
@@ -7355,7 +7360,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 5863667148393601905}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!1 &5863667148812972313
 GameObject:
   m_ObjectHideFlags: 0
@@ -8069,7 +8076,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 5863667148927846547}
   type: 0
-  scenes: 0
+  worldid: 0
+  dungonid: 0
+  scene: 
 --- !u!65 &5863667148927846545
 BoxCollider:
   m_ObjectHideFlags: 0
