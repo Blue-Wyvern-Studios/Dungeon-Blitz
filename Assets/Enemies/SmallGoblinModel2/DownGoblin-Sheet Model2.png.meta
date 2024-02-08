@@ -1,0 +1,783 @@
+fileFormatVersion: 2
+guid: 1473bab399c16e44b9ee5285a85c9761
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 809
+        width: 176
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2531bd2d8c7219c4a8a654b50ccfe09e
+      internalID: -295424528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 809
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59a267c6b208740b49e127415f1fe3
+      internalID: -1511915518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 809
+        width: 176
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c84c74d2265964eaaadccc7753fc3a
+      internalID: 1441215018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_3
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 809
+        width: 176
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728c3b22a85441641a3c10275cd64f33
+      internalID: 974845353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_4
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 809
+        width: 176
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb95ec5bbf95b64b9d1daa358955255
+      internalID: 486104171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_5
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 809
+        width: 176
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c5ca5100a1f5b40ba6f600f40c90f4
+      internalID: 336369333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_6
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 809
+        width: 176
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4030d612b7fd35e43bd10fab17ead756
+      internalID: 1687740673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_7
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 809
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4609ea4035f05424abc074258dc45608
+      internalID: 1157817205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_8
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 809
+        width: 176
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34703f0bd069e8346a34ee4e1b1a6b87
+      internalID: -1391995963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_9
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 809
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8924b60e97f0f45ac5858a96a5ddda
+      internalID: -1153483356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_10
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 811
+        width: 174
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e19445057fc0646ab4fdd8a39b2e61
+      internalID: -2057060668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_11
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 809
+        width: 174
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f288d86976efc41aee738b222a54b3
+      internalID: 170468684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_12
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 811
+        width: 174
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0cf0fda29441342999ca89ba7a22e5
+      internalID: -1979168738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_13
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 811
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48a426e1e798de4b8b8ca4e7824de41
+      internalID: -29495257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 563
+        width: 174
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea68305048fa9674eb7b592e9b8fa32e
+      internalID: -1265217219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_15
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 563
+        width: 174
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c78cb90e64cf846b3358a66546ce31
+      internalID: 337402655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_16
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 563
+        width: 175
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513e5bd78d0897b478f44313dbd064fd
+      internalID: 1265391287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_17
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 561
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90556fbc7d367cc46bc5afc393a64dbb
+      internalID: 723191205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_18
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 561
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a015dbd6e18f604ca24e4872a9c9191
+      internalID: 1078904751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_19
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 561
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3149e1cdda1d1498ead8ede6afa50a
+      internalID: 426215826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_20
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 561
+        width: 174
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe867c94a6cd47c42af80e5d3482ed5b
+      internalID: -506384920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_21
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafaa935d7b496a4a8338c8e69a6c4a1
+      internalID: -1717224435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_22
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c3f5cc131ced47bcaba3ef8bbb348
+      internalID: 1911687408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_23
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d6c0f2217c7404a9f9b037ef9de02a
+      internalID: -2074593433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_24
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041d5e896edd7064cb26efa18e644fb0
+      internalID: 772733762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_25
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f8e7be6e11ce6479510ee65ef440ad
+      internalID: 2092577260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_26
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21659b76cd6157047b2675a803806f82
+      internalID: 1729173957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_27
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 561
+        width: 176
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13a63b835db59c40b25ef0a902800f9
+      internalID: 83515573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 315
+        width: 174
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453bccb604a3a134880fdd4210ca508b
+      internalID: -437743475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownGoblin-Sheet Model2_29
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 315
+        width: 170
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78736e6397598944bb0d4fde3a8f2a4
+      internalID: 1418199162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DownGoblin-Sheet Model2_20: -506384920
+      DownGoblin-Sheet Model2_1: -1511915518
+      DownGoblin-Sheet Model2_28: -437743475
+      DownGoblin-Sheet Model2_12: -1979168738
+      DownGoblin-Sheet Model2_0: -295424528
+      DownGoblin-Sheet Model2_5: 336369333
+      DownGoblin-Sheet Model2_2: 1441215018
+      DownGoblin-Sheet Model2_3: 974845353
+      DownGoblin-Sheet Model2_24: 772733762
+      DownGoblin-Sheet Model2_17: 723191205
+      DownGoblin-Sheet Model2_8: -1391995963
+      DownGoblin-Sheet Model2_18: 1078904751
+      DownGoblin-Sheet Model2_16: 1265391287
+      DownGoblin-Sheet Model2_15: 337402655
+      DownGoblin-Sheet Model2_19: 426215826
+      DownGoblin-Sheet Model2_6: 1687740673
+      DownGoblin-Sheet Model2_13: -29495257
+      DownGoblin-Sheet Model2_4: 486104171
+      DownGoblin-Sheet Model2_27: 83515573
+      DownGoblin-Sheet Model2_22: 1911687408
+      DownGoblin-Sheet Model2_7: 1157817205
+      DownGoblin-Sheet Model2_21: -1717224435
+      DownGoblin-Sheet Model2_29: 1418199162
+      DownGoblin-Sheet Model2_10: -2057060668
+      DownGoblin-Sheet Model2_11: 170468684
+      DownGoblin-Sheet Model2_26: 1729173957
+      DownGoblin-Sheet Model2_23: -2074593433
+      DownGoblin-Sheet Model2_25: 2092577260
+      DownGoblin-Sheet Model2_14: -1265217219
+      DownGoblin-Sheet Model2_9: -1153483356
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
