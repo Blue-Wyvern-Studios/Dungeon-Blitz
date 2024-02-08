@@ -1,0 +1,1597 @@
+fileFormatVersion: 2
+guid: 7d8406d8c71c24b4d9115a6b08b4756d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1829
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089ea6c89ce50c4439b73e3b2b05a061
+      internalID: -1968658724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1829
+        width: 126
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78c692c5227b7046bd391fa57504104
+      internalID: 2061665932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1829
+        width: 122
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2429e639b2936274f9e415a92a5f9e65
+      internalID: -1173796712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1829
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df35ddfadf9e7ad40a0ea0a723b3eb69
+      internalID: -1755923114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1829
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d8793ab17e0634485d67e5259cd6da
+      internalID: 2049941278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1829
+        width: 112
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48780feb6c1d9304aab963d2f2dc0ddc
+      internalID: 1412991183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1829
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fad5799b94280a48a11f3c4d06432be
+      internalID: -470565512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 1829
+        width: 108
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c671ac8a7e3f964db2da15eb56759ba
+      internalID: -285595554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1829
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943785617787f64f8e40ddcf4affc54
+      internalID: -374264601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1829
+        width: 106
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23988db0c2bac149bb0afd17aa0a1fc
+      internalID: -166062213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 1829
+        width: 106
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3914343588c750747be5de2b6d98c8ce
+      internalID: -2082847070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 1829
+        width: 106
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb75b7db32f0ec45aeac6f2b9f066b6
+      internalID: 1989519830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 1829
+        width: 106
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163038f4dbc489a4a953f10655b93b8b
+      internalID: 1391610583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 1829
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46500fb7a3b5b844ae1e0e7bad1690e
+      internalID: -384198629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1581
+        width: 114
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a11840eec3e4741826bc2e89f2e055
+      internalID: -775089556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1581
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c73757006a91cd449b624ef2e640093
+      internalID: 2013131995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1581
+        width: 122
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f865c0c62113664db154e43a4546186
+      internalID: -68083193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1581
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209748dbae80ffd439c969c467412afc
+      internalID: -1891471183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1581
+        width: 126
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddc192c9fd4aaf499fb77a4bf2b5a86
+      internalID: -1284729215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1581
+        width: 128
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb806899d8f3d0458359614f96c7118
+      internalID: 596281523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1581
+        width: 128
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddbbc615fe7b634482be49b4bddda8d
+      internalID: 1293574613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1581
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13d5fd36da9d4469ce84c81c1f879f
+      internalID: 319089420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1581
+        width: 128
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471a27da48237eb47aa01c85807183e9
+      internalID: -456489709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1581
+        width: 128
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40f4bfac60b7134481f62f566a8e72a
+      internalID: -1320061183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 1581
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86a440b67b5fc34c93a3db31137ad8c
+      internalID: -152573992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 1581
+        width: 130
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0384555d9fe3e4b8876115a28c8c6c
+      internalID: 818155720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 1581
+        width: 128
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88024cf5321018449a82fd708e8aab49
+      internalID: 1642474438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 1579
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43ef2dd0b74dd448a851aa5e6148ee
+      internalID: 2131658576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1333
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8541db6806822304b9cda3020f87c85a
+      internalID: -637622985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1335
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ca4cd7541f37d45bd9c27c95759a3b
+      internalID: 237476302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1335
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50833f26bdfdd84d88ed267c63d50f9
+      internalID: -768018187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1335
+        width: 118
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7e4ed80ac91d04e9c9d97452c3d5a4
+      internalID: -1130291129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1335
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd52343f96ea9274f979eb8ff839155b
+      internalID: 897881350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1335
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ee869ac6528624aa9736279b36760f
+      internalID: 1517009096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1335
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e8fba883bf114ebf4c8ba1f16215b
+      internalID: -87475706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 1335
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaa7c9ed7570ab4d8a4f5d86d4b91e3
+      internalID: 344297843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1335
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be4c116df5e46f498181e0a04d80467
+      internalID: 1781856854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 1335
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a777aa286ac8b4ca190da34d0909fa
+      internalID: 250696280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1335
+        width: 118
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4149adaae1e46aa48a5d3d4d7c17e280
+      internalID: 524412533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1335
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c32205af45aff4fa97b843107ffc2c
+      internalID: -262582644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 1335
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4e0eb69634b4149b9d80d5611fba31
+      internalID: 318098090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 1335
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70b2477eadff74597089838e2f6161
+      internalID: 220924332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1087
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6101846a2213d2940b0fbb4243d60509
+      internalID: 851290808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1087
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335b8e8e176a5694db772cf0deef4613
+      internalID: -1127785446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1087
+        width: 118
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956bb2773eea1b440bfddfbf776bd4fe
+      internalID: 1635000817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1087
+        width: 116
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a519b4956173143b663001bdcf51a5
+      internalID: -2099246206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1087
+        width: 111
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860459482c399514bb00aaedd3f4aae3
+      internalID: 790852056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1089
+        width: 105
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d2bea6403cb684f9b6bcb838253c31
+      internalID: -765556853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1089
+        width: 100
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a76744bad64fcf4b83d774a6b72dd19
+      internalID: 1897230942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1089
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adadf142fa8e3914aa7a54a59a985b72
+      internalID: 1479428670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1089
+        width: 98
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48606a3996cc7948890c7849ccee1c0
+      internalID: 1694144226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1089
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01f41075a6f8e942bb328028c4b74a7
+      internalID: 1076003870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 1089
+        width: 98
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00d5fdf196aa3947ab341b1140dd561
+      internalID: -2077443860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 1089
+        width: 104
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68d0433025bf274183d3dcbe76d3cce
+      internalID: -577204767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 1150
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17865c3d7d2bd274dac3ac449a00a000
+      internalID: 841114922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 1079
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e905ebbf5171145ba122dc03ca8aa8
+      internalID: -1411842470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 1085
+        width: 108
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26039df7a8fc4284a9389f295e907d48
+      internalID: 1457231559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 839
+        width: 106
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f598a99d64d274cb2392b69df3caf8
+      internalID: 1991512749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 839
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb89545c5ff534143aaf276ef65f4177
+      internalID: -1667211413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 840
+        width: 102
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b3447c8257aa4683b6c2c07238f75
+      internalID: -677219861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 839
+        width: 104
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec6d89bc97230c47add1b05976be2ba
+      internalID: 1841283475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 839
+        width: 104
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddbe94ef10274b4ab6f824bb3da1ae2
+      internalID: 1375145586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 837
+        width: 106
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0164fedfc5d604f975340f7e4f2043
+      internalID: -1877896011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 897
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2108038d725cc38419944a7ff16bfdb7
+      internalID: -1590703609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 834
+        width: 108
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1c23abea4a06a4e8bf8a85d8881367
+      internalID: -1941604142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 833
+        width: 110
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73789297b0188b47a96ed161991943e
+      internalID: -121205614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeadGoblin-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 831
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b84bc5c65c2a0438bc108826d9d4c4
+      internalID: 2010034622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DeadGoblin-Sheet_16: -68083193
+      DeadGoblin-Sheet_50: 1694144226
+      DeadGoblin-Sheet_12: 1391610583
+      DeadGoblin-Sheet_17: -1891471183
+      DeadGoblin-Sheet_42: 851290808
+      DeadGoblin-Sheet_65: -121205614
+      DeadGoblin-Sheet_53: -577204767
+      DeadGoblin-Sheet_56: 1457231559
+      DeadGoblin-Sheet_36: 1781856854
+      DeadGoblin-Sheet_40: 318098090
+      DeadGoblin-Sheet_23: -1320061183
+      DeadGoblin-Sheet_9: -166062213
+      DeadGoblin-Sheet_64: -1941604142
+      DeadGoblin-Sheet_35: 344297843
+      DeadGoblin-Sheet_3: -1755923114
+      DeadGoblin-Sheet_34: -87475706
+      DeadGoblin-Sheet_14: -775089556
+      DeadGoblin-Sheet_10: -2082847070
+      DeadGoblin-Sheet_5: 1412991183
+      DeadGoblin-Sheet_20: 1293574613
+      DeadGoblin-Sheet_61: 1375145586
+      DeadGoblin-Sheet_63: -1590703609
+      DeadGoblin-Sheet_37: 250696280
+      DeadGoblin-Sheet_4: 2049941278
+      DeadGoblin-Sheet_18: -1284729215
+      DeadGoblin-Sheet_11: 1989519830
+      DeadGoblin-Sheet_0: -1968658724
+      DeadGoblin-Sheet_8: -374264601
+      DeadGoblin-Sheet_19: 596281523
+      DeadGoblin-Sheet_28: -637622985
+      DeadGoblin-Sheet_44: 1635000817
+      DeadGoblin-Sheet_2: -1173796712
+      DeadGoblin-Sheet_49: 1479428670
+      DeadGoblin-Sheet_15: 2013131995
+      DeadGoblin-Sheet_30: -768018187
+      DeadGoblin-Sheet_52: -2077443860
+      DeadGoblin-Sheet_38: 524412533
+      DeadGoblin-Sheet_54: 841114922
+      DeadGoblin-Sheet_13: -384198629
+      DeadGoblin-Sheet_55: -1411842470
+      DeadGoblin-Sheet_32: 897881350
+      DeadGoblin-Sheet_26: 1642474438
+      DeadGoblin-Sheet_1: 2061665932
+      DeadGoblin-Sheet_25: 818155720
+      DeadGoblin-Sheet_31: -1130291129
+      DeadGoblin-Sheet_62: -1877896011
+      DeadGoblin-Sheet_39: -262582644
+      DeadGoblin-Sheet_41: 220924332
+      DeadGoblin-Sheet_33: 1517009096
+      DeadGoblin-Sheet_43: -1127785446
+      DeadGoblin-Sheet_29: 237476302
+      DeadGoblin-Sheet_6: -470565512
+      DeadGoblin-Sheet_22: -456489709
+      DeadGoblin-Sheet_45: -2099246206
+      DeadGoblin-Sheet_58: -1667211413
+      DeadGoblin-Sheet_57: 1991512749
+      DeadGoblin-Sheet_66: 2010034622
+      DeadGoblin-Sheet_51: 1076003870
+      DeadGoblin-Sheet_48: 1897230942
+      DeadGoblin-Sheet_24: -152573992
+      DeadGoblin-Sheet_60: 1841283475
+      DeadGoblin-Sheet_59: -677219861
+      DeadGoblin-Sheet_47: -765556853
+      DeadGoblin-Sheet_21: 319089420
+      DeadGoblin-Sheet_27: 2131658576
+      DeadGoblin-Sheet_46: 790852056
+      DeadGoblin-Sheet_7: -285595554
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 32dff4290aaffff4e90b4e5bfed8ac60
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 799
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9452f8c7c8963744cb207191d4e85223
+      internalID: 1774719816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 799
+        width: 132
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dbee9f9ce69ce4f9e8d46d1f9bae9e
+      internalID: -496053599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 805
+        width: 144
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937faadd0039ab14a9e1162ae610a964
+      internalID: -1043725295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 805
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf1140fad34c114ab066991bcfcd753
+      internalID: 947639714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 805
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8668461dde98a7e48b0487f8d7ca46cd
+      internalID: -2122072200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 805
+        width: 140
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3af420c6c3fd684a8627f90b51587fd
+      internalID: 654063480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 805
+        width: 146
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b66ba7ab3fcb0341b0dd6614f8deb58
+      internalID: -341111737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 805
+        width: 173
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97b0584053b2774f8b6334bfb11ad1b
+      internalID: -1824048104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 805
+        width: 173
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6437d509dab874e4f95eaa4b1f69c396
+      internalID: -262841591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 805
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6a3bfc09abf074d89c868015d98184
+      internalID: 1052404760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 805
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d64795ee7fc1394eb03c6c7ed2ffca1
+      internalID: -172161561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 805
+        width: 103
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c18faab95c0243b04f4c859c0be70
+      internalID: -1623970017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 805
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fca729b7f2ff94e82da0a50c79be35
+      internalID: 401804364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3865
+        y: 805
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7ebfff28f059d4ebc7c1f0e0dcd5f4
+      internalID: 1322390875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 557
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f8fa5557c956142b3e1f958239e201
+      internalID: -110670718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 557
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4197c92a74b88944aa2f0090afa4cfa
+      internalID: 1811620013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 557
+        width: 104
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faab67a47a68dd4489ed6d72bba27aa
+      internalID: 1640729474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 557
+        width: 102
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b157af9c518c74f8f3fb38ea2b5c7c
+      internalID: 2086206045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 567
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39bfa3aa8753e64db394f3e65467d64
+      internalID: -1450163574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 569
+        width: 118
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b812221d2f56b9f4b858921f7e4fab1e
+      internalID: -57910579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 571
+        width: 118
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e325110d6441e94994e9405a00a61a2
+      internalID: -1741956334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 557
+        width: 202
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52158d56a6b72b547b3b9c5d4f0cf8ba
+      internalID: 1754247852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 557
+        width: 202
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2daa83e8f191b7458a552458295a977
+      internalID: -1508985040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 557
+        width: 202
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ac2a34aa978084faddde1951f17cfd
+      internalID: -1854732694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 557
+        width: 150
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d48d5586ff9045a37a6e490696a64
+      internalID: 132272326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 557
+        width: 150
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d986620f6393e43b767cb2a510ff28
+      internalID: 1203654584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 614
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8e21b7550773e4eb0e4a3ba3700af9
+      internalID: -643231203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 557
+        width: 150
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd98cfa65256f84ba5f369cf67bc8d9
+      internalID: -1208266779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 557
+        width: 151
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17001fa6e58f513448d95098e1e580af
+      internalID: -174024775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 309
+        width: 152
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f28a1e2724ebc479d8e791a24f58f1
+      internalID: -1956471557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 309
+        width: 150
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65723434c31ee34cb62fa4129f936c8
+      internalID: 222594360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 309
+        width: 146
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2480153d9fa61cd4eaee0ffe5047951b
+      internalID: -1783939888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 309
+        width: 166
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d289b623fc8771b48b1258049f188b6e
+      internalID: -2121667193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 309
+        width: 171
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d450738a7bed346845fcf76e0bb753
+      internalID: 460604480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttactGoblin-Sheet-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 309
+        width: 169
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbe890ae60a3b54ba5348828a989773
+      internalID: -1070130375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AttactGoblin-Sheet-Sheet_16: 1640729474
+      AttactGoblin-Sheet-Sheet_34: -1070130375
+      AttactGoblin-Sheet-Sheet_19: -57910579
+      AttactGoblin-Sheet-Sheet_14: -110670718
+      AttactGoblin-Sheet-Sheet_17: 2086206045
+      AttactGoblin-Sheet-Sheet_27: -1208266779
+      AttactGoblin-Sheet-Sheet_4: -2122072200
+      AttactGoblin-Sheet-Sheet_7: -1824048104
+      AttactGoblin-Sheet-Sheet_12: 401804364
+      AttactGoblin-Sheet-Sheet_33: 460604480
+      AttactGoblin-Sheet-Sheet_3: 947639714
+      AttactGoblin-Sheet-Sheet_28: -174024775
+      AttactGoblin-Sheet-Sheet_0: 1774719816
+      AttactGoblin-Sheet-Sheet_24: 132272326
+      AttactGoblin-Sheet-Sheet_6: -341111737
+      AttactGoblin-Sheet-Sheet_20: -1741956334
+      AttactGoblin-Sheet-Sheet_18: -1450163574
+      AttactGoblin-Sheet-Sheet_32: -2121667193
+      AttactGoblin-Sheet-Sheet_23: -1854732694
+      AttactGoblin-Sheet-Sheet_25: 1203654584
+      AttactGoblin-Sheet-Sheet_13: 1322390875
+      AttactGoblin-Sheet-Sheet_1: -496053599
+      AttactGoblin-Sheet-Sheet_29: -1956471557
+      AttactGoblin-Sheet-Sheet_15: 1811620013
+      AttactGoblin-Sheet-Sheet_11: -1623970017
+      AttactGoblin-Sheet-Sheet_5: 654063480
+      AttactGoblin-Sheet-Sheet_31: -1783939888
+      AttactGoblin-Sheet-Sheet_10: -172161561
+      AttactGoblin-Sheet-Sheet_9: 1052404760
+      AttactGoblin-Sheet-Sheet_22: -1508985040
+      AttactGoblin-Sheet-Sheet_26: -643231203
+      AttactGoblin-Sheet-Sheet_2: -1043725295
+      AttactGoblin-Sheet-Sheet_21: 1754247852
+      AttactGoblin-Sheet-Sheet_30: 222594360
+      AttactGoblin-Sheet-Sheet_8: -262841591
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
