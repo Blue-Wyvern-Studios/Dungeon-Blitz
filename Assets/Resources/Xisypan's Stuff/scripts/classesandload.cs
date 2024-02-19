@@ -94,7 +94,7 @@ public class classesandload : MonoBehaviour
       npscgiver();
       if (chclass == "Paladin")
       {
-        name = " ";
+        name = "Name "+id;
         others[0] = 0;
         others[1] = 0;
         others[2] = 1;
@@ -227,8 +227,16 @@ public class classesandload : MonoBehaviour
     // Update is called once per frame
     void Update()
   {
-  }
 
+  }
+  private void OnApplicationQuit()
+  {
+    if (SceneManager.GetActiveScene().name=="worlds")
+    {
+      charactersmain[selectedch].position = GameObject.Find("Player").transform.position;
+    }
+    localsave();
+  }
   public void localsave()
   {
     StreamWriter wr = new StreamWriter(Path.Combine(Application.dataPath, "game.txt"));

@@ -41,6 +41,11 @@ public class Teleporter : MonoBehaviour
     overit = true;
     if (type == 1 ||type==3)
     {
+    try
+    {
+      GameObject.Find("Cursor Manager").GetComponent<CursorManager>().cursordoor = true;
+    }
+    catch { }
       if ((init && overit && Input.GetMouseButtonDown(0)) || (init && Input.GetKeyDown(KeyCode.E))|| ( transform.name.Contains("Enter")))
       {
         if (type == 1)
@@ -78,7 +83,10 @@ public class Teleporter : MonoBehaviour
       }
     }
   }
-
+  private void OnMouseExit()
+  {
+    GameObject.Find("Cursor Manager").GetComponent<CursorManager>().cursordoor = false;
+  }
   public void test()
   {
     GameObject.Find("dungeonsetter").GetComponent<classesandload>().localsave();

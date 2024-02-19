@@ -69,7 +69,7 @@ public class objects : MonoBehaviour
         {
           transform.GetComponent<Animator>().speed = 1;
           lightningtimer = 5;
-          transform.GetComponent<SpriteRenderer>().color = new Color(255,255,255,255);
+          transform.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 255);
         }
 
       }
@@ -77,6 +77,10 @@ public class objects : MonoBehaviour
       {
         lightningtimer -= Time.deltaTime;
       }
+    }
+    else if (transform.name == "bg")
+    {
+      transform.position = new Vector3(GameObject.Find("Player").transform.position.x, GameObject.Find("Player").transform.position.y,2);
     }
   }
   private void OnTriggerEnter2D(Collider2D collision)

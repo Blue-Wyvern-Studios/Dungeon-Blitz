@@ -10,7 +10,8 @@ public class CursorManager : MonoBehaviour
     public bool cursorIsDialogueTextured = false;
     [SerializeField] public Texture2D cursorMeleeTexture;
     public bool cursorIsMeleeTextured = false;
-
+  public bool cursordoor = false;
+  public bool dialogbool = false;
     private Vector2 cursorHotSpot;
 
     public GameObject player;
@@ -29,31 +30,46 @@ public class CursorManager : MonoBehaviour
         Cursor.SetCursor(cursorDefaultTexture, cursorHotSpot, CursorMode.Auto);
     }
 
-    void Update()
+  void Update()
+  {
+    //keeping the same z position
+    screenPosition = Input.mousePosition;
+    screenPosition.z = Camera.main.nearClipPlane + 1;
+
+    worldPosition = Camera.main.ScreenToWorldPoint(screenPosition);
+
+    playerPosition = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
+
+    //setting melee cursor
+    if (cursordoor)
     {
-        //keeping the same z position
-        screenPosition = Input.mousePosition;
-        screenPosition.z = Camera.main.nearClipPlane + 1;
-
-        worldPosition = Camera.main.ScreenToWorldPoint(screenPosition);
-
-        playerPosition = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
-
-        //setting melee cursor
-        if (Vector3.Distance(worldPosition, playerPosition) < 2 && !cursorIsDialogueTextured)
-        {
-            cursorIsMeleeTextured = true;
-            Cursor.SetCursor(cursorMeleeTexture, cursorHotSpot, CursorMode.Auto);
-            cursorHotSpot = new Vector2(cursorMeleeTexture.width / 2, cursorMeleeTexture.height / 2);
-        }
-        //setting ranged cursor
-        else if (Vector3.Distance(worldPosition, playerPosition) > 2 && !cursorIsDialogueTextured)
-        {
-            cursorIsMeleeTextured = false;
-            cursorHotSpot = new Vector2(cursorDefaultTexture.width / 2, cursorDefaultTexture.height / 2);
-            Cursor.SetCursor(cursorDefaultTexture, cursorHotSpot, CursorMode.Auto);
-        }
+      Texture2D doortexture = Resources.Load<Texture2D>("UI/Cursors/doorcursor");
+      Cursor.SetCursor(doortexture, cursorHotSpot, CursorMode.Auto);
+      cursorHotSpot = new Vector2(doortexture.width / 2, doortexture.height / 2);
     }
+    else if (dialogbool)
+    {
+      Texture2D doortexture = Resources.Load<Texture2D>("UI/Cursors/Dialogue");
+      Cursor.SetCursor(doortexture, cursorHotSpot, CursorMode.Auto);
+      cursorHotSpot = new Vector2(doortexture.width / 2, doortexture.height / 2);
+    }
+    else
+    {
+      if (Vector3.Distance(worldPosition, playerPosition) < 2 && !cursorIsDialogueTextured)
+      {
+        cursorIsMeleeTextured = true;
+        Cursor.SetCursor(cursorMeleeTexture, cursorHotSpot, CursorMode.Auto);
+        cursorHotSpot = new Vector2(cursorMeleeTexture.width / 2, cursorMeleeTexture.height / 2);
+      }
+      //setting ranged cursor
+      else if (Vector3.Distance(worldPosition, playerPosition) > 2 && !cursorIsDialogueTextured)
+      {
+        cursorIsMeleeTextured = false;
+        cursorHotSpot = new Vector2(cursorDefaultTexture.width / 2, cursorDefaultTexture.height / 2);
+        Cursor.SetCursor(cursorDefaultTexture, cursorHotSpot, CursorMode.Auto);
+      }
+    }
+  }
 
     public void OnDialogueZoneEnter()
     {

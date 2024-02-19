@@ -455,6 +455,7 @@ GameObject:
   - component: {fileID: 6601834217973415889}
   - component: {fileID: 2348798732965486847}
   - component: {fileID: 7427794462810244337}
+  - component: {fileID: 9201141420134733851}
   m_Layer: 0
   m_Name: Captain
   m_TagString: Untagged
@@ -542,3 +543,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1675d491d83a05e42b2890428aab2931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &9201141420134733851
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431360406003074280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

@@ -20,7 +20,14 @@ public class npcs : MonoBehaviour
       }
     }
   }
-
+  private void OnMouseEnter()
+  {
+    GameObject.Find("Cursor Manager").GetComponent<CursorManager>().dialogbool = true;
+  }
+  private void OnMouseExit()
+  {
+    GameObject.Find("Cursor Manager").GetComponent<CursorManager>().dialogbool = false;
+  }
   public void dialog()
   {
     currentnpc.interact();
