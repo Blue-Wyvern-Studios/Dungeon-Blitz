@@ -33,7 +33,7 @@ public class classesandload : MonoBehaviour
     public int[]resistantcs= new int[6];//firedef,aitdef,earthdef,lifedef,deaethdef,icedef
     public int[]bonusdmg=new int[6];//firdmg,airdmg,earthdmg,lifedmg,deathdmg,icedmg
     public int[] findings = new int[4];//gear,met,gold,xp
-    public double[] mainstats2=new double[6];//attackspeed,movementspeed,critch,critdmg,recovery,tenacity
+    public double[] mainstats2=new double[6];//attackspeed,critch,critdmg,movementspeed,recovery,tenacity
     public int[] others = new int[4];//dungeonid,worldid,level,chid
     public Vector3 position=new Vector3(0,0,-5);
     public npc[] npcs;
@@ -52,17 +52,22 @@ public class classesandload : MonoBehaviour
           {
             mainstats1[j] = int.Parse(datas[j]);
           }
-          datas = data[step + 2].Split(";");
+          datas = data[step + 2].Split(';');
+          for (int j = 0; j < mainstats2.Length; j++)
+          {
+            mainstats2[j] = int.Parse(datas[j]);
+          }
+          datas = data[step + 3].Split(";");
           for (int j = 0; j < others.Length; j++)
           {
             others[j] = int.Parse(datas[j]);
           }
-          datas = data[step + 3].Split(";");
+          datas = data[step + 4].Split(";");
           name = datas[0];
           chclass = datas[1];
           position = new Vector3(float.Parse(datas[2].Split(',')[0]), float.Parse(datas[2].Split(',')[1]),-5f);
         npscgiver();
-          for (int j = 4; j < npcs.Length; j++)
+          for (int j = 5; j < npcs.Length; j++)
           {
             datas = data[step + j].Split(";");
             npcs[j - 4] = new npc(datas[0], int.Parse(datas[1]), bool.Parse(datas[2]));
@@ -105,9 +110,9 @@ public class classesandload : MonoBehaviour
         mainstats1[2] = 5;
         mainstats1[3] = 15;
         mainstats2[0] = 1;
-        mainstats2[1] = 6;
-        mainstats2[2] = 10;
-        mainstats2[3] = 20;
+        mainstats2[1] = 10;
+        mainstats2[2] = 20;
+        mainstats2[3] = 6;
         mainstats2[4] = 10;
       }
     }
@@ -119,6 +124,14 @@ public class classesandload : MonoBehaviour
       {
         if (i != mainstats1.Length - 1) { outline += mainstats1[i] + ";"; }
         else {outline+=mainstats1[i]; }
+      }
+      wr.WriteLine(outline);
+      outline = "";
+      outline = "";
+      for (int i = 0; i < mainstats2.Length; i++)
+      {
+        if (i != mainstats2.Length - 1) { outline += mainstats2[i] + ";"; }
+        else { outline += mainstats2[i]; }
       }
       wr.WriteLine(outline);
       outline = "";

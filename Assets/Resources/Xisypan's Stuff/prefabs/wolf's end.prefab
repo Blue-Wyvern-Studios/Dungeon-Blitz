@@ -7060,8 +7060,9 @@ GameObject:
   - component: {fileID: 6831417836383950297}
   - component: {fileID: 8870399944580436018}
   - component: {fileID: 4480612000899079905}
+  - component: {fileID: 7855779563051559727}
   m_Layer: 0
-  m_Name: tpgc
+  m_Name: tpgctip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7177,6 +7178,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.805473, y: 8.704632}
   m_EdgeRadius: 0
+--- !u!114 &7855779563051559727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386231132400327432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291c71fa73163284a9d64240b61e4afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1527301788118273910
 GameObject:
   m_ObjectHideFlags: 0
@@ -7189,8 +7202,9 @@ GameObject:
   - component: {fileID: 90545681237680624}
   - component: {fileID: 7163706747357153911}
   - component: {fileID: 7201755436304792134}
+  - component: {fileID: 1707271831197538636}
   m_Layer: 0
-  m_Name: tpneq
+  m_Name: tpneqtip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7306,6 +7320,18 @@ MonoBehaviour:
   worldid: 0
   dungonid: 3
   scene: dungeons
+--- !u!114 &1707271831197538636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527301788118273910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291c71fa73163284a9d64240b61e4afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1997617662495592156
 GameObject:
   m_ObjectHideFlags: 0
@@ -7318,8 +7344,9 @@ GameObject:
   - component: {fileID: 4921555580713494658}
   - component: {fileID: 6030881356892554680}
   - component: {fileID: 248014821498574910}
+  - component: {fileID: 2225497211673633356}
   m_Layer: 0
-  m_Name: tpdd
+  m_Name: tpddtip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7435,6 +7462,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.72229, y: 5.6035557}
   m_EdgeRadius: 0
+--- !u!114 &2225497211673633356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997617662495592156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291c71fa73163284a9d64240b61e4afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3084830369799609297
 GameObject:
   m_ObjectHideFlags: 0
@@ -7564,6 +7603,7 @@ GameObject:
   - component: {fileID: 6754536471452132716}
   - component: {fileID: 486071432986157530}
   - component: {fileID: 2334492245010407793}
+  - component: {fileID: 3296629282073990279}
   m_Layer: 0
   m_Name: tplostatseas
   m_TagString: Untagged
@@ -7681,6 +7721,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.323181, y: 5.6419983}
   m_EdgeRadius: 0
+--- !u!114 &3296629282073990279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318434932765806625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291c71fa73163284a9d64240b61e4afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5535464706079411555
 GameObject:
   m_ObjectHideFlags: 0
@@ -7874,8 +7926,9 @@ GameObject:
   - component: {fileID: 7801393913594878121}
   - component: {fileID: 2949609124558829430}
   - component: {fileID: 3706376199982613904}
+  - component: {fileID: 2563879371206961628}
   m_Layer: 0
-  m_Name: tpgk
+  m_Name: tpgktip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7961,7 +8014,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.6824646, y: -1.3092365}
+  m_Offset: {x: 0.20010376, y: -1.3092365}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7972,7 +8025,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.424377, y: 5.2710533}
+  m_Size: {x: 5.1167603, y: 5.2710533}
   m_EdgeRadius: 0
 --- !u!114 &3706376199982613904
 MonoBehaviour:
@@ -7991,6 +8044,18 @@ MonoBehaviour:
   worldid: 0
   dungonid: 1
   scene: dungeons
+--- !u!114 &2563879371206961628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8217481340616171543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291c71fa73163284a9d64240b61e4afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8999423235053897107
 GameObject:
   m_ObjectHideFlags: 0
