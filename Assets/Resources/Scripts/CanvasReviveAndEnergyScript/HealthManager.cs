@@ -60,14 +60,22 @@ public class HealthManager : MonoBehaviour
             isPlayerAlive = false;
         }
     }
-    void UpdateHealthBar()
+  void UpdateHealthBar()
+  {
+    try
     {
       healthBar.fillAmount = Mathf.Clamp(healthAmount / maxHealth, 0, 1);
     }
+    catch { }
+  }
 
     void UpdateHealthText()
     {
+    try
+    {
       hpText.text = healthAmount.ToString() + "/" + maxHealth.ToString();
+    }
+    catch { }
     }
     void RegenerateHealthExternally(float amount)
     {

@@ -11,6 +11,7 @@ using JetBrains.Annotations;
 using UnityEngine.UIElements;
 using UnityEngine.UI;
 using UnityEditor.SearchService;
+using Cinemachine;
 
 public class classesandload : MonoBehaviour
 {
@@ -323,12 +324,15 @@ public class classesandload : MonoBehaviour
       GameObject.Instantiate(dungons[charactersmain[selectedch].others[0]]);
       GameObject startpoint = GameObject.Find("starterpoint");
       GameObject.Find("Player").transform.position = new Vector3(startpoint.transform.position.x, startpoint.transform.position.y, -5);
+      GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
     }
     else if (SceneManager.GetActiveScene().name == "worlds")
     {
       GameObject.Instantiate(worlds[charactersmain[selectedch].others[1]]);
       GameObject.Find("Player").transform.position = charactersmain[selectedch].position;
+      GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
     }
+
   }
   private IEnumerator talkwindow()
   {
