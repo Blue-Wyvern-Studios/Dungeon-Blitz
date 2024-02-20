@@ -109,7 +109,7 @@ public class classesandload : MonoBehaviour
         mainstats1[1] = 10;
         mainstats1[2] = 5;
         mainstats1[3] = 15;
-        mainstats2[0] = 1;
+        mainstats2[0] = 100;
         mainstats2[1] = 10;
         mainstats2[2] = 20;
         mainstats2[3] = 6;
@@ -168,6 +168,23 @@ public class classesandload : MonoBehaviour
         GameObject.Find("Selected Char Level Txt").GetComponent<TextMeshProUGUI>().text = "";
         GameObject.Find("Selected Char Class Txt").GetComponent<TextMeshProUGUI>().text = "";
         GameObject.Find("characterapp").GetComponent<UnityEngine.UI.Image>().color = new Color(0, 0, 0, 0);
+      }
+    }
+    public void characterselectstter(GameObject set)
+    {
+        set.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = name;
+        set.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = others[2].ToString("D2");
+      if (chclass != "")
+      {
+        if (chclass == "Paladin")
+        {
+          set.transform.GetChild(3).GetComponent<UnityEngine.UI.Image>().sprite = Resources.Load<Sprite>("UI/Main Menu/paladinemblem");
+          set.transform.GetChild(3).GetComponent<UnityEngine.UI.Image>().color = new Color(255, 255, 255, 255);
+        }
+      }
+      else
+      {
+        set.transform.GetChild(3).GetComponent<UnityEngine.UI.Image>().color = new Color(0, 0, 0, 0);
       }
     }
     void npscgiver()
@@ -244,11 +261,14 @@ public class classesandload : MonoBehaviour
   }
   private void OnApplicationQuit()
   {
-    if (SceneManager.GetActiveScene().name=="worlds")
+    if (SceneManager.GetActiveScene().name != "Main Menu")
     {
-      charactersmain[selectedch].position = GameObject.Find("Player").transform.position;
+      if (SceneManager.GetActiveScene().name == "worlds")
+      {
+        charactersmain[selectedch].position = GameObject.Find("Player").transform.position;
+      }
+      localsave();
     }
-    localsave();
   }
   public void localsave()
   {

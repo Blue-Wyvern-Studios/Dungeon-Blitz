@@ -13,16 +13,19 @@ public class MainMenuManager : MonoBehaviour
   {
     if (transform.name.Contains("Character"))
     {
+      int step0 = 0;
+      bool found = false;
       try
       {
-        for (int i = 0; i < transform.parent.childCount; i++)
+        while (step0 != transform.parent.childCount && !found)
         {
-          if (transform == transform.parent.GetChild(i))
+          if (transform == transform.parent.GetChild(step0))
           {
-            transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[i].name;
-            transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[i].others[2].ToString();
             GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[GameObject.Find("dungeonsetter").GetComponent<classesandload>().selectedch].mainmenusetter();
+            GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[step0].characterselectstter(transform.gameObject);
+            found = true;
           }
+          step0++;
         }
       }
       catch { }
@@ -46,7 +49,7 @@ public class MainMenuManager : MonoBehaviour
     }
     else
     {
-      if (      GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[GameObject.Find("dungeonsetter").GetComponent<classesandload>().selectedch].mainstats1[0] !=0 )
+      if (GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[GameObject.Find("dungeonsetter").GetComponent<classesandload>().selectedch].mainstats1[0] !=0 )
       { 
       GameObject.Find("dungeonsetter").GetComponent<classesandload>().charactersmain[GameObject.Find("dungeonsetter").GetComponent<classesandload>().selectedch].name = transform.parent.GetChild(0).GetChild(2).GetComponent<TextMeshProUGUI>().text;
       }
@@ -65,7 +68,6 @@ public class MainMenuManager : MonoBehaviour
       else
       {
         transform.parent.GetChild(i).GetChild(2).gameObject.SetActive(false);
-
       }
     }
   

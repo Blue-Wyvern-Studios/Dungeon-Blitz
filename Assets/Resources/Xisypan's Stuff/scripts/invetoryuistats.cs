@@ -26,26 +26,48 @@ public class invetoryuistats : MonoBehaviour
       transform.GetChild(transform.childCount - 2).GetComponent<TextMeshProUGUI>().text = playerinv.name;
       int step1 = 0;
       int step2 = 0;
-      while (step1 != transform.childCount-3)
+      while (step2 != playerinv.mainstats1.Length)
       {
-        while (step2 != playerinv.mainstats1.Length)
-        {
-            transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.mainstats1[step2].ToString();
-            step2++;
-            step1++;
-        }
-        step2 = 0;
-        while (step2 != playerinv.mainstats2.Length)
-        {
-          transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.mainstats2[step2].ToString();
-          step2++;
-          step1++;
-        }
+        transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.mainstats1[step2].ToString();
+        step2++;
+        step1++;
       }
-
-
+      step2 = 0;
+      while (step2 != playerinv.mainstats2.Length)
+      {
+        transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.mainstats2[step2].ToString()+"%";
+        step2++;
+        step1++;
+      }
     }
-    else if (transform.name== "CanvasInventory")
+    else if (transform.name == "States2")
+    {
+      int step1 = 1;
+      int step2 = 0;
+      while (step2 != playerinv.findings.Length)
+      {
+        transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.findings[step2].ToString() + "%";
+        step2++;
+        step1++;
+      }
+      step2 = 0;
+      while (step2 != playerinv.bonusdmg.Length)
+      {
+        transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.bonusdmg[step2].ToString() + "%";
+        step2++;
+        step1++;
+      }
+      step2 = 0;
+      while (step2 != playerinv.resistantcs.Length)
+      {
+        transform.GetChild(step1).GetComponent<TextMeshProUGUI>().text = playerinv.resistantcs[step2].ToString() + "%";
+        step2++;
+        step1++;
+      }
+    }
+
+
+    else if (transform.name == "CanvasInventory")
     {
       if (Input.GetKeyDown(KeyCode.I))
       {
