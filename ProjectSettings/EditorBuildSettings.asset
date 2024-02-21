@@ -11,13 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Resources/Xisypan's Stuff/scenes/mainmenu.unity
-    guid: 98008fdbde0ff844c94f4ac129fc308e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Resources/Xisypan's Stuff/scenes/worlds.unity
     guid: 7c33cb23d5c89c04da472b775219acb2
   - enabled: 1
     path: Assets/Resources/Xisypan's Stuff/scenes/dungeons.unity
     guid: f672265d86496bb43a2029d8f273d4ca
+  - enabled: 1
+    path: Assets/Resources/Xisypan's Stuff/scenes/home.unity
+    guid: 89128af763b987e488ab2c86fe7cd9f8
   m_configObjects: {}

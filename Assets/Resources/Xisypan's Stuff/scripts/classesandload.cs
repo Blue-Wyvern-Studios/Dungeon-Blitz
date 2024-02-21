@@ -332,6 +332,11 @@ public class classesandload : MonoBehaviour
       GameObject.Find("Player").transform.position = charactersmain[selectedch].position;
       GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
     }
+    else if (SceneManager.GetActiveScene().name == "home")
+    {
+      GameObject.Find("Player").transform.position=new Vector3(13,-36,-5);
+      GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
+    }
 
   }
   private IEnumerator talkwindow()

@@ -12,11 +12,22 @@ public class Teleporter : MonoBehaviour
   public int worldid;//store the id of the dungeons
   public int dungonid;//store th id of th wotld
   public string scene;//witch scene to load
-  //how to use: if you wanna place a teleporter attach the component and give it the informations (type, destination(other tleporter) and scen if needed thn enjoy)
-    void Start()
+                      //how to use: if you wanna place a teleporter attach the component and give it the informations (type, destination(other tleporter) and scen if needed thn enjoy)
+  void Start()
+  {
+    player = GameObject.FindWithTag("Player");
+    if (transform.name == "homebutton")
     {
-        player = GameObject.FindWithTag("Player");
+      if (SceneManager.GetActiveScene().name == "worlds")
+      {
+        transform.GetComponent<UnityEngine.UI.Image>().sprite = Resources.Load<Sprite>("UI/HUD/home");
+      }
+      else
+      {
+        transform.GetComponent<UnityEngine.UI.Image>().sprite = Resources.Load<Sprite>("UI/HUD/door");
+      }
     }
+  }
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
@@ -90,5 +101,17 @@ public class Teleporter : MonoBehaviour
   public void test()
   {
     GameObject.Find("dungeonsetter").GetComponent<classesandload>().localsave();
+  }
+  public void homebutton()
+  {
+    GameObject.Find("dungeonsetter").GetComponent<classesandload>().localsave();
+    if (SceneManager.GetActiveScene().name != "worlds")
+    {
+      SceneManager.LoadScene("worlds");
+    }
+    else
+    {
+      SceneManager.LoadScene("home");
+    }
   }
 }

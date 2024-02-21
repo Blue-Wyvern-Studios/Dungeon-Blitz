@@ -43,7 +43,7 @@ public class CursorManager : MonoBehaviour
     //setting melee cursor
     if (cursordoor)
     {
-      Texture2D doortexture = Resources.Load<Texture2D>("UI/Cursors/doorcursor");
+      Texture2D doortexture = Resources.Load<Texture2D>("UI/Cursors/boot");
       Cursor.SetCursor(doortexture, cursorHotSpot, CursorMode.Auto);
       cursorHotSpot = new Vector2(doortexture.width / 2, doortexture.height / 2);
     }
