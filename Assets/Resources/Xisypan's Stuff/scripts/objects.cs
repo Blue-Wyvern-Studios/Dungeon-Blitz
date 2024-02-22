@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
 using System.Diagnostics;
+using Cinemachine;
 
 public class objects : MonoBehaviour
 {
@@ -153,6 +154,14 @@ public class objects : MonoBehaviour
     if (transform.name == "lightning")
     {
       transform.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+    }
+  }
+  private void OnMouseEnter()
+  {
+    
+    if (transform.name.Contains("camerapoint"))
+    {
+      transform.parent.GetChild(0).GetComponent<CinemachineVirtualCamera>().Follow = transform;
     }
   }
 

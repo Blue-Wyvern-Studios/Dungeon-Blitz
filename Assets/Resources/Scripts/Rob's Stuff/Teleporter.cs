@@ -44,6 +44,10 @@ public class Teleporter : MonoBehaviour
           player.transform.position = new Vector3(destination.transform.position.x, destination.transform.position.y, -5);
         }
       }
+      else if (type == 2)
+      {
+        transform.parent.transform.GetComponent<Teleporter>().destination = transform.gameObject;
+      }
     }
   }
   public void OnMouseOver()
