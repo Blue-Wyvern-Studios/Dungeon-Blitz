@@ -1424,6 +1424,7 @@ MonoBehaviour:
   dungons: []
   worlds: []
   selectedch: 0
+  player: {fileID: 0}
 --- !u!4 &201685295
 Transform:
   m_ObjectHideFlags: 0

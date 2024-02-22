@@ -4186,7 +4186,7 @@ GameObject:
   - component: {fileID: 2293078199575962957}
   - component: {fileID: 2293078199575962956}
   - component: {fileID: 2293078199575962955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -4580,7 +4580,7 @@ GameObject:
   - component: {fileID: 2293078199683807075}
   - component: {fileID: 2293078199683807074}
   - component: {fileID: 2293078199683807077}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}

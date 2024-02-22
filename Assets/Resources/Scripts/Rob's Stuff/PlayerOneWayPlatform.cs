@@ -26,8 +26,14 @@ public class PlayerOneWayPlatform : MonoBehaviour
   {
     if (collision.tag=="Player")
     {
-      StartCoroutine(DisableCollision());
+      Collider2D platformCollider = transform.GetComponent<EdgeCollider2D>();
+      Physics2D.IgnoreCollision(GameObject.Find("Player").GetComponent<BoxCollider2D>(), platformCollider);
     }
+  }
+  private void OnTriggerExit2D(Collider2D collision)
+  {
+    Collider2D platformCollider = transform.GetComponent<EdgeCollider2D>();
+    Physics2D.IgnoreCollision(GameObject.Find("Player").GetComponent<BoxCollider2D>(), platformCollider,false);
   }
   private void OnCollisionExit2D(Collision2D collision)
     {
@@ -40,12 +46,9 @@ public class PlayerOneWayPlatform : MonoBehaviour
     //disabling collision between player and platform
     private IEnumerator DisableCollision()
     {
-    if (currentOneWayPlatform != null)
-    { 
-      Collider2D platformCollider = transform.GetComponent<Collider2D>();
+      Collider2D platformCollider = transform.GetComponent<EdgeCollider2D>();
       Physics2D.IgnoreCollision(GameObject.Find("Player").GetComponent<BoxCollider2D>(), platformCollider);
       yield return new WaitForSeconds(0.25f);
       Physics2D.IgnoreCollision(GameObject.Find("Player").GetComponent<BoxCollider2D>(), platformCollider, false);
-    }
     }
 }

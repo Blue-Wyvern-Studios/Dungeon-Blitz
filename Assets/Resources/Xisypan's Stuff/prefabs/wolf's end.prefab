@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 67931697}
   - component: {fileID: 67931696}
   - component: {fileID: 67931695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cliifd
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -632,7 +632,7 @@ GameObject:
   - component: {fileID: 173811996}
   - component: {fileID: 173811995}
   - component: {fileID: 173811994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -875,7 +875,7 @@ GameObject:
   - component: {fileID: 238183128}
   - component: {fileID: 238183127}
   - component: {fileID: 238183126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: down2
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -997,12 +997,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1.1551781, y: -0.4655304}
+    - - {x: 2.2773552, y: 1.0529575}
+      - {x: -1.1808014, y: -0.31178093}
       - {x: -2.01725, y: -0.7413788}
       - {x: -0.27779007, y: -0.9351654}
       - {x: 1.2586269, y: -0.5}
       - {x: 3.9811096, y: 0.7944031}
-      - {x: 4.568987, y: 1.8448334}
+      - {x: 4.697111, y: 1.6910839}
 --- !u!114 &238183126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,7 +1114,7 @@ GameObject:
   - component: {fileID: 342481696}
   - component: {fileID: 342481695}
   - component: {fileID: 342481694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -1239,8 +1240,8 @@ PolygonCollider2D:
     - - {x: -4.409485, y: -3.3442688}
       - {x: -4.4004364, y: -2.063263}
       - {x: -2.8332672, y: -2.1994019}
-      - {x: -1.7596893, y: -2.1714172}
-      - {x: -1.4939575, y: -2.2575226}
+      - {x: -1.7596893, y: -2.0974903}
+      - {x: -1.3830681, y: -2.0727043}
       - {x: -0.85084534, y: -2.2693024}
       - {x: -1.0813141, y: -3.0316315}
       - {x: -1.293808, y: -3.6379852}
@@ -1272,7 +1273,7 @@ GameObject:
   - component: {fileID: 374411030}
   - component: {fileID: 374411029}
   - component: {fileID: 374411028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -1517,7 +1518,7 @@ GameObject:
   - component: {fileID: 422930622}
   - component: {fileID: 422930621}
   - component: {fileID: 422930620}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cliff
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -1672,7 +1673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 444715482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hous
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1709,7 +1710,7 @@ GameObject:
   - component: {fileID: 449412723}
   - component: {fileID: 449412722}
   - component: {fileID: 449412721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: down1
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -1950,7 +1951,7 @@ GameObject:
   - component: {fileID: 524911205}
   - component: {fileID: 524911204}
   - component: {fileID: 524911203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -2214,7 +2215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541056094}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62.21458, y: 16.438522, z: -5}
+  m_LocalPosition: {x: 61.05, y: 16.83, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2878,7 +2879,7 @@ GameObject:
   - component: {fileID: 815707758}
   - component: {fileID: 815707757}
   - component: {fileID: 815707756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: up2
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -2893,7 +2894,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815707754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.27475, y: 2.6367798, z: 0}
+  m_LocalPosition: {x: 58.27475, y: 3.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2965,7 +2966,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.02}
   m_EdgeRadius: 0
   m_Points:
   - {x: -3.1788254, y: 0.045394897}
@@ -2988,7 +2989,7 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.01}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3163,7 +3164,7 @@ GameObject:
   - component: {fileID: 1084419168}
   - component: {fileID: 1084419167}
   - component: {fileID: 1084419166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: up1
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -3322,7 +3323,7 @@ GameObject:
   - component: {fileID: 1171836215}
   - component: {fileID: 1171836214}
   - component: {fileID: 1171836213}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -3476,7 +3477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1264234548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hous (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3722,7 +3723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301732780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hous (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3759,7 +3760,7 @@ GameObject:
   - component: {fileID: 1310894032}
   - component: {fileID: 1310894031}
   - component: {fileID: 1310894030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: flowr
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -4022,7 +4023,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327630361}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 60.28, y: 2.4, z: -5}
+  m_LocalPosition: {x: 59.13, y: 3.81, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4126,10 +4127,10 @@ PolygonCollider2D:
     - - {x: -0.35918236, y: 1.0632629}
       - {x: -0.45580006, y: 0.54042053}
       - {x: -1.6381292, y: 0.46673584}
-      - {x: -2.5770578, y: -0.3239746}
+      - {x: -5.238431, y: 0.19351578}
       - {x: -1.7960005, y: -0.138443}
       - {x: -1.2954226, y: 0.028060913}
-      - {x: 0.5, y: 0.5}
+      - {x: 0.49999997, y: 0.5}
 --- !u!1 &1331712989
 GameObject:
   m_ObjectHideFlags: 0
@@ -4223,7 +4224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1375841720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hous (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4556,7 +4557,7 @@ GameObject:
   - component: {fileID: 1627466923}
   - component: {fileID: 1627466922}
   - component: {fileID: 1627466921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: boat1 (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -6056,7 +6057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2080669067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6177,7 +6178,7 @@ GameObject:
   - component: {fileID: 2132162835}
   - component: {fileID: 2132162834}
   - component: {fileID: 2132162833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -6342,7 +6343,7 @@ GameObject:
   - component: {fileID: 2134253100}
   - component: {fileID: 2134253099}
   - component: {fileID: 2134253098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -6507,7 +6508,7 @@ GameObject:
   - component: {fileID: 2134279694}
   - component: {fileID: 2134279693}
   - component: {fileID: 2134279692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: boat1
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -6663,7 +6664,7 @@ GameObject:
   - component: {fileID: 2136214087}
   - component: {fileID: 2136214086}
   - component: {fileID: 2136214085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}

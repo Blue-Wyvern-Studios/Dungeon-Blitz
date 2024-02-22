@@ -977,7 +977,7 @@ GameObject:
   - component: {fileID: 356895980}
   - component: {fileID: 356895979}
   - component: {fileID: 356895978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platform (1)
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}

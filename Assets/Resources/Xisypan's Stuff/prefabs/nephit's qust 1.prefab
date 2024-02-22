@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 5742126547563358366}
   - component: {fileID: 5742126547563358367}
   - component: {fileID: 5742126547563358364}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platfrom1
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -3085,7 +3085,7 @@ GameObject:
   - component: {fileID: 5742126548195008333}
   - component: {fileID: 5742126548195008338}
   - component: {fileID: 5742126548195008339}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platfrom2
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}
@@ -6506,7 +6506,7 @@ GameObject:
   - component: {fileID: 5742126548754423009}
   - component: {fileID: 5742126548754423014}
   - component: {fileID: 5742126548754423011}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: platfrom
   m_TagString: OneWayPlatform
   m_Icon: {fileID: 0}

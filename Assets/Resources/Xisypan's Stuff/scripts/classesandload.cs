@@ -25,6 +25,7 @@ public class classesandload : MonoBehaviour
   #region
   public characters [] charactersmain=new characters[8];
   public int selectedch=0;
+  public GameObject player;
   #endregion
 
   public class characters
@@ -266,7 +267,7 @@ public class classesandload : MonoBehaviour
     {
       if (SceneManager.GetActiveScene().name == "worlds")
       {
-        charactersmain[selectedch].position = GameObject.Find("Player").transform.position;
+        charactersmain[selectedch].position =player.transform.position;
       }
       localsave();
     }
@@ -323,18 +324,18 @@ public class classesandload : MonoBehaviour
     {
       GameObject.Instantiate(dungons[charactersmain[selectedch].others[0]]);
       GameObject startpoint = GameObject.Find("starterpoint");
-      GameObject.Find("Player").transform.position = new Vector3(startpoint.transform.position.x, startpoint.transform.position.y, -5);
+      player.transform.position = new Vector3(startpoint.transform.position.x, startpoint.transform.position.y, -5);
       GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
     }
     else if (SceneManager.GetActiveScene().name == "worlds")
     {
       GameObject.Instantiate(worlds[charactersmain[selectedch].others[1]]);
-      GameObject.Find("Player").transform.position = charactersmain[selectedch].position;
+      player.transform.position = charactersmain[selectedch].position;
       GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
     }
     else if (SceneManager.GetActiveScene().name == "home")
     {
-      GameObject.Find("Player").transform.position=new Vector3(13,-36,-5);
+      player.transform.position=new Vector3(13,-36,-5);
       GameObject.Find("plcam").GetComponent<CinemachineConfiner2D>().m_BoundingShape2D = GameObject.Find("bounds").GetComponent<PolygonCollider2D>();
     }
 
