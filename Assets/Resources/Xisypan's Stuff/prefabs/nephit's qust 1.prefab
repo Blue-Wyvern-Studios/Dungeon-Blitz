@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7653185091009064146}
   - component: {fileID: 6771887219002747610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1962762119782877272}
   - component: {fileID: 6743769300518434961}
   - component: {fileID: 1645798916880831855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wolf'sendtip (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5248761229422217021}
   - component: {fileID: 5018311953827074699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 1581593203515981721}
   - component: {fileID: 223013060879914151}
   - component: {fileID: 27172982432263948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wolf'sendtip (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 5742126547525082882}
   - component: {fileID: 5742126547525082940}
   - component: {fileID: 5742126547525082941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 5742126547546116793}
   - component: {fileID: 5742126547546116792}
   - component: {fileID: 5742126547546116795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 5742126547552729367}
   - component: {fileID: 5742126547552729361}
   - component: {fileID: 5742126547552729366}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -929,7 +929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547572031654}
   - component: {fileID: 5742126547572031649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 5742126547623500108}
   - component: {fileID: 5742126547623500110}
   - component: {fileID: 5742126547623500111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,7 +1118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547649846588}
   - component: {fileID: 5742126547649846591}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1203,7 +1203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547661721045}
   - component: {fileID: 5742126547661721044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1288,7 +1288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547679371150}
   - component: {fileID: 5742126547679371145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1372,7 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547742858805}
   - component: {fileID: 5742126547742858804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1457,7 @@ GameObject:
   - component: {fileID: 5742126547758204073}
   - component: {fileID: 5742126547758204075}
   - component: {fileID: 5742126547758204072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1561,7 +1561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547766450475}
   - component: {fileID: 5742126547766450474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547808750820}
   - component: {fileID: 5742126547808750823}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1730,7 +1730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547808986904}
   - component: {fileID: 5742126547808986907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1816,7 +1816,7 @@ GameObject:
   - component: {fileID: 5742126547840049416}
   - component: {fileID: 5742126547840049418}
   - component: {fileID: 5742126547840049419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1920,7 +1920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126547926501303}
   - component: {fileID: 5742126547926501302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2006,7 +2006,7 @@ GameObject:
   - component: {fileID: 5742126547949612595}
   - component: {fileID: 5742126547949612589}
   - component: {fileID: 5742126547949612594}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2111,7 +2111,7 @@ GameObject:
   - component: {fileID: 5742126547954585008}
   - component: {fileID: 5742126547954585011}
   - component: {fileID: 5742126547954585010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2222,7 +2222,7 @@ GameObject:
   - component: {fileID: 5742126547956366923}
   - component: {fileID: 5742126547956366922}
   - component: {fileID: 5742126547956366917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2333,7 +2333,7 @@ GameObject:
   - component: {fileID: 5742126547966420358}
   - component: {fileID: 5742126547966420352}
   - component: {fileID: 5742126547966420355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2464,7 +2464,7 @@ GameObject:
   - component: {fileID: 5742126547971102727}
   - component: {fileID: 5742126547971102721}
   - component: {fileID: 5742126547971102726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2569,7 +2569,7 @@ GameObject:
   - component: {fileID: 5742126548023070019}
   - component: {fileID: 5742126548023070077}
   - component: {fileID: 5742126548023070076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2702,7 +2702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548075120819}
   - component: {fileID: 5742126548075120818}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2788,7 +2788,7 @@ GameObject:
   - component: {fileID: 5742126548166581416}
   - component: {fileID: 5742126548166581418}
   - component: {fileID: 5742126548166581419}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2893,7 +2893,7 @@ GameObject:
   - component: {fileID: 5742126548180780620}
   - component: {fileID: 5742126548180780622}
   - component: {fileID: 5742126548180780623}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2997,7 +2997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548193612562}
   - component: {fileID: 5742126548193612557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3239,7 +3239,7 @@ GameObject:
   - component: {fileID: 5742126548203286597}
   - component: {fileID: 5742126548203286599}
   - component: {fileID: 5742126548203286596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3343,7 +3343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548246983905}
   - component: {fileID: 5742126548246983904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3429,7 +3429,7 @@ GameObject:
   - component: {fileID: 5742126548248511230}
   - component: {fileID: 5742126548248511225}
   - component: {fileID: 5742126548248511224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3540,7 +3540,7 @@ GameObject:
   - component: {fileID: 5742126548261889176}
   - component: {fileID: 5742126548261889178}
   - component: {fileID: 5742126548261889179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3645,7 +3645,7 @@ GameObject:
   - component: {fileID: 5742126548283808835}
   - component: {fileID: 5742126548283808834}
   - component: {fileID: 5742126548283808893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 11 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3742,7 +3742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548305697381}
   - component: {fileID: 5742126548305697380}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3828,7 +3828,7 @@ GameObject:
   - component: {fileID: 5742126548322699050}
   - component: {fileID: 5742126548322699045}
   - component: {fileID: 5742126548322699044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3938,7 +3938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548329694116}
   - component: {fileID: 5742126548329694119}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4023,7 +4023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548356698070}
   - component: {fileID: 5742126548356698065}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4109,7 +4109,7 @@ GameObject:
   - component: {fileID: 5742126548356943398}
   - component: {fileID: 5742126548356943392}
   - component: {fileID: 5742126548356943393}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4214,7 +4214,7 @@ GameObject:
   - component: {fileID: 5742126548357873126}
   - component: {fileID: 5742126548357873120}
   - component: {fileID: 5742126548357873121}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4319,7 +4319,7 @@ GameObject:
   - component: {fileID: 5742126548381702699}
   - component: {fileID: 5742126548381702698}
   - component: {fileID: 5742126548381702693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4429,7 +4429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548431090767}
   - component: {fileID: 5742126548431090766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4515,7 +4515,7 @@ GameObject:
   - component: {fileID: 5742126548506445959}
   - component: {fileID: 5742126548506445953}
   - component: {fileID: 5742126548506445952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4647,7 +4647,7 @@ GameObject:
   - component: {fileID: 5742126548507103660}
   - component: {fileID: 5742126548507103663}
   - component: {fileID: 5742126548507103662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4758,7 +4758,7 @@ GameObject:
   - component: {fileID: 5742126548520154824}
   - component: {fileID: 5742126548520154827}
   - component: {fileID: 5742126548520154826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 11 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4868,7 +4868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548542285258}
   - component: {fileID: 5742126548542285253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4954,7 +4954,7 @@ GameObject:
   - component: {fileID: 5742126548562737499}
   - component: {fileID: 5742126548562737493}
   - component: {fileID: 5742126548562737498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5059,7 +5059,7 @@ GameObject:
   - component: {fileID: 5742126548564716600}
   - component: {fileID: 5742126548564716603}
   - component: {fileID: 5742126548564716602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 11 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5156,7 +5156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548588357876}
   - component: {fileID: 5742126548588357879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5242,7 +5242,7 @@ GameObject:
   - component: {fileID: 5742126548621822251}
   - component: {fileID: 5742126548621822250}
   - component: {fileID: 5742126548621822245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5352,7 +5352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548628692082}
   - component: {fileID: 5742126548628692077}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5436,7 +5436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548639653178}
   - component: {fileID: 5742126548639653173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5522,7 +5522,7 @@ GameObject:
   - component: {fileID: 5742126548647626135}
   - component: {fileID: 5742126548647626129}
   - component: {fileID: 5742126548647626134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: orangegate_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5632,7 +5632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548647832900}
   - component: {fileID: 5742126548647832903}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5717,7 +5717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548666304782}
   - component: {fileID: 5742126548666304777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5803,7 +5803,7 @@ GameObject:
   - component: {fileID: 5742126548674453928}
   - component: {fileID: 5742126548674453930}
   - component: {fileID: 5742126548674453931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5908,7 +5908,7 @@ GameObject:
   - component: {fileID: 5742126548692278555}
   - component: {fileID: 5742126548692278554}
   - component: {fileID: 5742126548692278549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 11 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6018,7 +6018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548700649300}
   - component: {fileID: 5742126548700649303}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6104,7 +6104,7 @@ GameObject:
   - component: {fileID: 5742126548713951660}
   - component: {fileID: 5742126548713951662}
   - component: {fileID: 5742126548713951663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6208,7 +6208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548724994729}
   - component: {fileID: 5742126548724994728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6294,7 +6294,7 @@ GameObject:
   - component: {fileID: 5742126548738430771}
   - component: {fileID: 5742126548738430765}
   - component: {fileID: 5742126548738430770}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6399,7 +6399,7 @@ GameObject:
   - component: {fileID: 5742126548752973480}
   - component: {fileID: 5742126548752973482}
   - component: {fileID: 5742126548752973483}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6657,7 +6657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548760338958}
   - component: {fileID: 5742126548760338953}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6741,7 +6741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548767333351}
   - component: {fileID: 5742126548767333350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6826,7 +6826,7 @@ GameObject:
   - component: {fileID: 5742126548786179798}
   - component: {fileID: 5742126548786179792}
   - component: {fileID: 5742126548786179793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6930,7 +6930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548803256227}
   - component: {fileID: 5742126548803256226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7015,7 +7015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548805916746}
   - component: {fileID: 5742126548805916741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: blueskull_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7099,7 +7099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548813656893}
   - component: {fileID: 5742126548813656892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7185,7 +7185,7 @@ GameObject:
   - component: {fileID: 5742126548823496421}
   - component: {fileID: 5742126548823496423}
   - component: {fileID: 5742126548823496420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7290,7 +7290,7 @@ GameObject:
   - component: {fileID: 5742126548823519352}
   - component: {fileID: 5742126548823519354}
   - component: {fileID: 5742126548823519349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7400,7 +7400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126548865065781}
   - component: {fileID: 5742126548865065780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7486,7 +7486,7 @@ GameObject:
   - component: {fileID: 5742126548935861765}
   - component: {fileID: 5742126548935861767}
   - component: {fileID: 5742126548935861766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7625,7 +7625,7 @@ GameObject:
   - component: {fileID: 5742126548937155103}
   - component: {fileID: 5742126548937155097}
   - component: {fileID: 5742126548937155102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7730,7 +7730,7 @@ GameObject:
   - component: {fileID: 5742126548946145127}
   - component: {fileID: 5742126548946145121}
   - component: {fileID: 5742126548946145126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7835,7 +7835,7 @@ GameObject:
   - component: {fileID: 5742126549019637765}
   - component: {fileID: 5742126549019637767}
   - component: {fileID: 5742126549019637766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7965,7 +7965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549023058721}
   - component: {fileID: 5742126549023058720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8050,7 +8050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549023186410}
   - component: {fileID: 5742126549023186405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8136,7 +8136,7 @@ GameObject:
   - component: {fileID: 5742126549035996077}
   - component: {fileID: 5742126549035996079}
   - component: {fileID: 5742126549035996076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8241,7 +8241,7 @@ GameObject:
   - component: {fileID: 5742126549054795064}
   - component: {fileID: 5742126549054795066}
   - component: {fileID: 5742126549054795067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8344,7 +8344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5742126549088912369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nephit's qust 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8389,7 +8389,7 @@ GameObject:
   - component: {fileID: 5742126549149669230}
   - component: {fileID: 5742126549149669224}
   - component: {fileID: 5742126549149669225}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8494,7 +8494,7 @@ GameObject:
   - component: {fileID: 5742126549157363374}
   - component: {fileID: 5742126549157363368}
   - component: {fileID: 5742126549157363369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8599,7 +8599,7 @@ GameObject:
   - component: {fileID: 5742126549159173183}
   - component: {fileID: 5742126549159173177}
   - component: {fileID: 5742126549159173182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8704,7 +8704,7 @@ GameObject:
   - component: {fileID: 5742126549253216932}
   - component: {fileID: 5742126549253216934}
   - component: {fileID: 5742126549253216929}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8828,7 +8828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549281724706}
   - component: {fileID: 5742126549281724637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8913,7 +8913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549286067948}
   - component: {fileID: 5742126549286067951}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: starterpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8997,7 +8997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549289831199}
   - component: {fileID: 5742126549289831198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9083,7 +9083,7 @@ GameObject:
   - component: {fileID: 5742126549313739192}
   - component: {fileID: 5742126549313739195}
   - component: {fileID: 5742126549313739194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9194,7 +9194,7 @@ GameObject:
   - component: {fileID: 5742126549353974232}
   - component: {fileID: 5742126549353974234}
   - component: {fileID: 5742126549353974235}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9299,7 +9299,7 @@ GameObject:
   - component: {fileID: 5742126549364090648}
   - component: {fileID: 5742126549364090650}
   - component: {fileID: 5742126549364090651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9403,7 +9403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549375236751}
   - component: {fileID: 5742126549375236750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9487,7 +9487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549381590237}
   - component: {fileID: 5742126549381590236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9572,7 +9572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549402951283}
   - component: {fileID: 5742126549402951282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1 13 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9656,7 +9656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549447182788}
   - component: {fileID: 5742126549447182791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9741,7 +9741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549477196434}
   - component: {fileID: 5742126549477196429}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9827,7 +9827,7 @@ GameObject:
   - component: {fileID: 5742126549543024741}
   - component: {fileID: 5742126549543024743}
   - component: {fileID: 5742126549543024740}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: gates_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9938,7 +9938,7 @@ GameObject:
   - component: {fileID: 5742126549568923045}
   - component: {fileID: 5742126549568923047}
   - component: {fileID: 5742126549568923044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10043,7 +10043,7 @@ GameObject:
   - component: {fileID: 5742126549572654694}
   - component: {fileID: 5742126549572654688}
   - component: {fileID: 5742126549572654691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nq4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10175,7 +10175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549577580634}
   - component: {fileID: 5742126549577580629}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10261,7 +10261,7 @@ GameObject:
   - component: {fileID: 5742126549584760633}
   - component: {fileID: 5742126549584760635}
   - component: {fileID: 5742126549584760632}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10365,7 +10365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549624102555}
   - component: {fileID: 5742126549624102554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: torch (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10450,7 +10450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5742126549638341668}
   - component: {fileID: 5742126549638341671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: troch1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10536,7 +10536,7 @@ GameObject:
   - component: {fileID: 5742126549653619067}
   - component: {fileID: 5742126549653619061}
   - component: {fileID: 5742126549653619066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10640,7 +10640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8225065700712713312}
   - component: {fileID: 1817368515072096467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
