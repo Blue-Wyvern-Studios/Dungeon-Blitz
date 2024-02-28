@@ -64,6 +64,7 @@ public class GroundEnemyScript : MonoBehaviour
 
         if (isAwake == true && distanceFromPlayer <= attackRange)
         {
+            StopChasingPlayer();
             AttackPlayer();
         }
     }
@@ -123,6 +124,6 @@ public class GroundEnemyScript : MonoBehaviour
 
     void StopChasingPlayer()
     {
-
+        rb2d.velocity = new Vector2(0, 0);
     }
 }
